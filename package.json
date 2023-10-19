@@ -1,0 +1,20 @@
+{
+  "name": "kmtelemetryjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "processtelemetry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "gopro-telemetry": "^1.2.1",
+    "gpmf-extract": "^0.3.1"
+  },
+  "bin": {
+    "processtelemetry": "./processtelemetry.js"
+  }
+}
